@@ -4,6 +4,9 @@ Worked on the Project Pneumonia Detection using Chest X Ray in the Phase 1 Perio
 The purpose of this project is to examine a Convolution Neural Network model on the image classification problem of Pneumonia Detection in chest X-Ray images. 
 
 
+The Train Model is having Accuracy of 94% and Validation Accuracy of 85% 
+
+
 # Methods and Algorithms Used 
 
 1) Image Data Preprocessing
