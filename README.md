@@ -33,6 +33,11 @@ The dataset used in the project is available on [Kaggle](https://www.kaggle.com/
 3. Val 
 
 
+# Codes 
+1. [Exploratory data analysis](https://github.com/Sameer411/Pneumonia-Detection-Bertelsmann-Scholarship/blob/main/Code/EDA.ipynb)
+2. [Pneumonia Detection Model](https://github.com/Sameer411/Pneumonia-Detection-Bertelsmann-Scholarship/blob/main/Code/Pneumonia_Detection_using_Chest_X_Ray_Bertelsmann_Scholarship.ipynb)
+
+
 # Project Description
 This project includes implementation of deep learning and computer vision techniques for detection of pneumonia in X-ray images from the Chest X-ray Images dataset. The CNN model classifies whether or not pneumonia shows up on the chest X-ray images, therefore only two predictions are possible, normal or pneumonia.
 
