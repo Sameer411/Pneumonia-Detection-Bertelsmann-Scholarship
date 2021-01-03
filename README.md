@@ -28,3 +28,24 @@ The dataset used in the project is available on [Kaggle](https://www.kaggle.com/
 1. normal
 2. pneumonia
 3. Val 
+
+
+# Project Description
+This project includes implementation of deep learning and computer vision techniques for detection of pneumonia in X-ray images from the Chest X-ray Images dataset. The CNN model classifies whether or not pneumonia shows up on the chest X-ray images, therefore only two predictions are possible, normal or pneumonia.
+
+In the data preprocessing step, samples from the dataset are resized to a shape (64,64), normalized and converted to the RGB color space. To reduce the classification bias caused by data imbalance, class weights are applied.
+
+The classifier used is the VGG-19 model with weights pre-trained on the ImageNet dataset. This network is supported in the Keras library, along with a transfer learning workflow performed in the project. The workflow consists of two phases, the first includes optimizing the output (classification) layer only, while the second includes retraining (fine-tuning) the entire network with much smaller learning rate. The training is performed in 25 epochs in the first phase and one final fine-tuning epoch in the second.
+
+Evaluation of the model is performed with accuracy, precision, recall and f1-score metrics on the validation set. Confusion matrices and other appropriate plots are used to further describe obtained results as well.
+
+
+# How to Run the Code
+1. Go to Provided Dataset Link 
+2. Download and Extract the file 
+3. Upload the extracted file in your Drive account 
+4. Open the google collab ipynb file in Google Colab
+5. Run Each Cell and You will get the Output 
+
+
+Read the Research Paper Before starting the Project. Do Research before Starting the Project 
